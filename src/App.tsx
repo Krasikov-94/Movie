@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import SearchIcon from './search.svg';
 import MovieCard from './MovieCard';
-import { logDOM } from '@testing-library/react';
 
 const API_URL = 'http://www.omdbapi.com?apikey=9360c126';
 
